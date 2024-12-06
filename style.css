@@ -1,0 +1,335 @@
+body {
+  background-color: #C9EEFF;
+}
+
+#heroes,#footer {
+  background: linear-gradient(300deg, #006A67, #55AD9B, #144272);
+  background-size:180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.lights {
+  background-image: url(./assets/light2.png);
+  background-repeat: repeat-x;
+  height: 115px;
+}
+
+.flowers {
+  background-image: url(./assets/flower\ border1.png);
+  padding-bottom: 0%;
+  background-repeat: repeat-x;
+  height: 115px;
+}
+h1 {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    margin-bottom: 30px;
+  }
+
+.intro {
+  font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+}
+
+.text {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    color: #134B70;
+  }
+
+.card-text {
+  font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
+h2 {
+  font-family: "Satisfy", cursive;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: xx-large;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #16325B;
+}
+
+h5 {
+  font-weight: bold;
+  font-family: "Itim", cursive;
+    font-style: normal;
+    font-size: x-large;
+}
+
+.school {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.college {
+  margin-top: 20px;
+  padding: 10px;
+  clear: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.graph {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bars {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: -15px;
+}
+
+.dsa {
+  height: 90%;
+  background-color: #58A399;
+}
+.ml {
+  height: 45%;
+  background-color: #A8CD9F;
+}
+.c {
+  height: 80%;
+  background-color: #97FEED;
+}
+.python {
+  height: 50%;
+  background-color: #58A399;
+}
+.oop {
+  height: 65%;
+  background-color: #A8CD9F;
+}
+.ht {
+  height: 75%;
+  background-color: #97FEED;
+}
+.cs {
+  height: 69%;
+  background-color: #58A399;
+}
+
+.hobbies {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  margin-bottom: 5%;
+}
+
+.card {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+hr {
+  border: 1px solid #163258;
+}
+
+@media (max-width: 200px) {
+  .edupic {
+    height: 100px;
+    width: 100px;
+  }
+  .edu {
+    font-size: 8px;
+  }
+  .graph {
+    gap: 0.7%;
+    width: 90%;
+    margin-left: 5%;
+    height: 220px;
+  }
+  .bars {
+    height: 200px;
+  }
+  .graph-item {
+    width: 15px;
+    border-color: black;
+    border-style: solid;
+  }
+  .sub {
+    font-size: 10px;
+    font-weight: bolder;
+  }
+}
+@media (min-width: 200px) and (max-width: 350px) {
+  .edupic {
+    height: 150px;
+    width: 150px;
+  }
+  .edu {
+    font-size: 10px;
+  }
+  .graph {
+    gap: 0.7%;
+    width: 90%;
+    margin-left: 5%;
+    height: 220px;
+  }
+  .bars {
+    height: 220px;
+  }
+  .graph-item {
+    width: 18px;
+    border-color: black;
+    border-style: solid;
+  }
+
+  .sub {
+    font-size: 10px;
+    font-weight: bolder;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 600px) {
+  .edupic {
+    height: 200px;
+    width: 200px;
+  }
+  .graph {
+    gap: 1.5%;
+    width: 85%;
+    margin-left: 7.5%;
+    height: 300px;
+  }
+  .bars {
+    height: 300px;
+  }
+  .graph-item {
+    width: 38px;
+    border-color: black;
+    border-style: solid;
+  }
+
+  .sub {
+    font-size: smaller;
+    font-weight: bolder;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 850px) {
+  .edupic {
+    height: 270px;
+    width: 270px;
+  }
+  .graph {
+    gap: 3%;
+    width: 90%;
+    margin-left: 5%;
+    height: 350px;
+  }
+  .bars {
+    height: 350px;
+  }
+  .graph-item {
+    width: 60px;
+    border-color: black;
+    border-style: solid;
+  }
+  .sub {
+    font-size: 17px;
+    font-weight: bolder;
+  }
+}
+
+@media (min-width: 850px) and (max-width: 1200px){
+  .edupic {
+    height: 350px;
+    width: 350px;
+  }
+  .education {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin-left: 12.5%;
+  }
+  .graph {
+    gap: 4%;
+    width: 85%;
+    margin-left: 7.5%;
+    height: 400px;
+  }
+  .bars {
+    height: 400px;
+  }
+  .graph-item {
+    width: 60px;
+    border-color: black;
+    border-style: solid;
+  }
+  
+  .sub {
+    font-size: 17px;
+    font-weight: bolder;
+  }
+}
+
+@media (min-width: 1200px) {
+  .edupic {
+    height: 350px;
+    width: 350px;
+  }
+  .education {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-left: 20%;
+  }
+  .graph {
+    gap: 5%;
+    width: 75%;
+    margin-left: 12.5%;
+    height: 450px;
+  }
+  .bars {
+    height: 450px;
+  }
+  .graph-item {
+    width: 70px;
+    border-color: black;
+    border-style: solid;
+  }
+  
+  .sub {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+}
